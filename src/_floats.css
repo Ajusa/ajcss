@@ -30,11 +30,6 @@
 .fr { float: right; _display: inline; }
 .fn { float: none; }
 
-@media (--breakpoint-not-small) {
-  .fl-ns { float: left; _display: inline; }
-  .fr-ns { float: right; _display: inline; }
-  .fn-ns { float: none; }
-}
 
 @media (--breakpoint-medium) {
   .fl-m { float: left; _display: inline; }

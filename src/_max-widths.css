@@ -49,21 +49,6 @@ POSSIBLE DELETION - ARHAM JAIN
 
 .mw-none { max-width: none; }
 
-@media (--breakpoint-not-small) {
-  .mw-100-ns  { max-width: 100%; }
-
-  .mw1-ns  {  max-width: 1rem; }
-  .mw2-ns  {  max-width: 2rem; }
-  .mw3-ns  {  max-width: 4rem; }
-  .mw4-ns  {  max-width: 8rem; }
-  .mw5-ns  {  max-width: 16rem; }
-  .mw6-ns  {  max-width: 32rem; }
-  .mw7-ns  {  max-width: 48rem; }
-  .mw8-ns  {  max-width: 64rem; }
-  .mw9-ns  {  max-width: 96rem; }
-
-  .mw-none-ns { max-width: none; }
-}
 
 @media (--breakpoint-medium) {
   .mw-100-m  { max-width: 100%; }

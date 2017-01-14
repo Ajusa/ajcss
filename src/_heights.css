@@ -49,20 +49,6 @@
 .min-vh-100 { min-height: 100vh; }
 
 
-
-@media (--breakpoint-not-small) {
-  .h1-ns {  height: 1rem; }
-  .h2-ns {  height: 2rem; }
-  .h3-ns {  height: 4rem; }
-  .h4-ns {  height: 8rem; }
-  .h5-ns {  height: 16rem; }
-  .vh-25-ns {  height:  25vh; }
-  .vh-50-ns {  height:  50vh; }
-  .vh-75-ns {  height:  75vh; }
-  .vh-100-ns { height: 100vh; }
-  .min-vh-100-ns { min-height: 100vh; }
-}
-
 @media (--breakpoint-medium) {
   .h1-m { height: 1rem; }
   .h2-m { height: 2rem; }

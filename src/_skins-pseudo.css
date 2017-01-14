@@ -97,14 +97,6 @@
 .hover-light-blue:focus { color: var(--light-blue); }
 .hover-lightest-blue:hover,
 .hover-lightest-blue:focus { color: var(--lightest-blue); }
-.hover-washed-blue:hover,
-.hover-washed-blue:focus { color: var(--washed-blue); }
-.hover-washed-green:hover,
-.hover-washed-green:focus { color: var(--washed-green); }
-.hover-washed-yellow:hover,
-.hover-washed-yellow:focus { color: var(--washed-yellow); }
-.hover-washed-red:hover,
-.hover-washed-red:focus { color: var(--washed-red); }
 
 .hover-bg-dark-red:hover,
 .hover-bg-dark-red:focus { background-color: var(--dark-red); }
@@ -148,12 +140,4 @@
 .hover-bg-light-blue:focus { background-color: var(--light-blue); }
 .hover-bg-lightest-blue:hover,
 .hover-bg-lightest-blue:focus { background-color: var(--lightest-blue); }
-.hover-bg-washed-blue:hover,
-.hover-bg-washed-blue:focus { background-color: var(--washed-blue); }
-.hover-bg-washed-green:hover,
-.hover-bg-washed-green:focus { background-color: var(--washed-green); }
-.hover-bg-washed-yellow:hover,
-.hover-bg-washed-yellow:focus { background-color: var(--washed-yellow); }
-.hover-bg-washed-red:hover,
-.hover-bg-washed-red:focus { background-color: var(--washed-red); }
 

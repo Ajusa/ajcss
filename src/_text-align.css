@@ -22,12 +22,6 @@
 .tr  { text-align: right; }
 .tc  { text-align: center; }
 
-@media (--breakpoint-not-small) {
-  .tl-ns  { text-align: left; }
-  .tr-ns  { text-align: right; }
-  .tc-ns  { text-align: center; }
-}
-
 @media (--breakpoint-medium) {
   .tl-m  { text-align: left; }
   .tr-m  { text-align: right; }
