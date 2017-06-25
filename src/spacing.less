@@ -1,0 +1,209 @@
+/* Variables */
+
+  @spacing-none: 0;
+  @spacing-extra-small: .25rem;
+  @spacing-small: .5rem;
+  @spacing-medium: 1rem;
+  @spacing-large: 2rem;
+  @spacing-extra-large: 4rem;
+  @spacing-extra-extra-large: 8rem;
+  @spacing-extra-extra-extra-large: 16rem;
+
+/*
+   SPACING
+   Docs: http://tachyons.io/docs/layout/spacing/
+   An eight step powers of two scale ranging from 0 to 16rem.
+   Base:
+     p = padding
+     m = margin
+   Modifiers:
+     a = all
+     h = horizontal
+     v = vertical
+     t = top
+     r = right
+     b = bottom
+     l = left
+     0 = none
+     1 = 1st step in spacing scale
+     2 = 2nd step in spacing scale
+     3 = 3rd step in spacing scale
+     4 = 4th step in spacing scale
+     5 = 5th step in spacing scale
+     6 = 6th step in spacing scale
+     7 = 7th step in spacing scale
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+*/
+
+
+.p0 { padding: @spacing-none; }
+.p1 { padding: @spacing-extra-small; }
+.p2 { padding: @spacing-small; }
+.p3 { padding: @spacing-medium; }
+.p4 { padding: @spacing-large; }
+.p5 { padding: @spacing-extra-large; }
+
+.pl0 { padding-left: @spacing-none; }
+.pl1 { padding-left: @spacing-extra-small; }
+.pl2 { padding-left: @spacing-small; }
+.pl3 { padding-left: @spacing-medium; }
+.pl4 { padding-left: @spacing-large; }
+.pl5 { padding-left: @spacing-extra-large; }
+.pr0 { padding-right: @spacing-none; }
+.pr1 { padding-right: @spacing-extra-small; }
+.pr2 { padding-right: @spacing-small; }
+.pr3 { padding-right: @spacing-medium; }
+.pr4 { padding-right: @spacing-large; }
+.pr5 { padding-right: @spacing-extra-large; }
+.pb0 { padding-bottom: @spacing-none; }
+.pb1 { padding-bottom: @spacing-extra-small; }
+.pb2 { padding-bottom: @spacing-small; }
+.pb3 { padding-bottom: @spacing-medium; }
+.pb4 { padding-bottom: @spacing-large; }
+.pb5 { padding-bottom: @spacing-extra-large; }
+.pt0 { padding-top: @spacing-none; }
+.pt1 { padding-top: @spacing-extra-small; }
+.pt2 { padding-top: @spacing-small; }
+.pt3 { padding-top: @spacing-medium; }
+.pt4 { padding-top: @spacing-large; }
+.pt5 { padding-top: @spacing-extra-large; }
+.pv0 {
+  padding-top: @spacing-none;
+  padding-bottom: @spacing-none;
+}
+.pv1 {
+  padding-top: @spacing-extra-small;
+  padding-bottom: @spacing-extra-small;
+}
+.pv2 {
+  padding-top: @spacing-small;
+  padding-bottom: @spacing-small;
+}
+.pv3 {
+  padding-top: @spacing-medium;
+  padding-bottom: @spacing-medium;
+}
+.pv4 {
+  padding-top: @spacing-large;
+  padding-bottom: @spacing-large;
+}
+.pv5 {
+  padding-top: @spacing-extra-large;
+  padding-bottom: @spacing-extra-large;
+}
+
+
+.ph0 {
+  padding-left: @spacing-none;
+  padding-right: @spacing-none;
+}
+
+.ph1 {
+  padding-left: @spacing-extra-small;
+  padding-right: @spacing-extra-small;
+}
+
+.ph2 {
+  padding-left: @spacing-small;
+  padding-right: @spacing-small;
+}
+
+.ph3 {
+  padding-left: @spacing-medium;
+  padding-right: @spacing-medium;
+}
+
+.ph4 {
+  padding-left: @spacing-large;
+  padding-right: @spacing-large;
+}
+
+.ph5 {
+  padding-left: @spacing-extra-large;
+  padding-right: @spacing-extra-large;
+}
+
+
+.m0  {  margin: @spacing-none; }
+.m1 {  margin: @spacing-extra-small; }
+.m2  {  margin: @spacing-small; }
+.m3  {  margin: @spacing-medium; }
+.m4  {  margin: @spacing-large; }
+.m5  {  margin: @spacing-extra-large; }
+
+.ml0  {  margin-left: @spacing-none; }
+.ml1 {  margin-left: @spacing-extra-small; }
+.ml2  {  margin-left: @spacing-small; }
+.ml3  {  margin-left: @spacing-medium; }
+.ml4  {  margin-left: @spacing-large; }
+.ml5  {  margin-left: @spacing-extra-large; }
+.mr0  {  margin-right: @spacing-none; }
+.mr1 {  margin-right: @spacing-extra-small; }
+.mr2  {  margin-right: @spacing-small; }
+.mr3  {  margin-right: @spacing-medium; }
+.mr4  {  margin-right: @spacing-large; }
+.mr5  {  margin-right: @spacing-extra-large; }
+.mb0  {  margin-bottom: @spacing-none; }
+.mb1 {  margin-bottom: @spacing-extra-small; }
+.mb2  {  margin-bottom: @spacing-small; }
+.mb3  {  margin-bottom: @spacing-medium; }
+.mb4  {  margin-bottom: @spacing-large; }
+.mb5  {  margin-bottom: @spacing-extra-large; }
+.mt0  {  margin-top: @spacing-none; }
+.mt1 {  margin-top: @spacing-extra-small; }
+.mt2  {  margin-top: @spacing-small; }
+.mt3  {  margin-top: @spacing-medium; }
+.mt4  {  margin-top: @spacing-large; }
+.mt5  {  margin-top: @spacing-extra-large; }
+.mv0   {
+  margin-top: @spacing-none;
+  margin-bottom: @spacing-none;
+}
+.mv1  {
+  margin-top: @spacing-extra-small;
+  margin-bottom: @spacing-extra-small;
+}
+.mv2   {
+  margin-top: @spacing-small;
+  margin-bottom: @spacing-small;
+}
+.mv3   {
+  margin-top: @spacing-medium;
+  margin-bottom: @spacing-medium;
+}
+.mv4   {
+  margin-top: @spacing-large;
+  margin-bottom: @spacing-large;
+}
+.mv5   {
+  margin-top: @spacing-extra-large;
+  margin-bottom: @spacing-extra-large;
+}
+
+.mh0   {
+  margin-left: @spacing-none;
+  margin-right: @spacing-none;
+}
+.mh1   {
+  margin-left: @spacing-extra-small;
+  margin-right: @spacing-extra-small;
+}
+.mh2   {
+  margin-left: @spacing-small;
+  margin-right: @spacing-small;
+}
+.mh3   {
+  margin-left: @spacing-medium;
+  margin-right: @spacing-medium;
+}
+.mh4   {
+  margin-left: @spacing-large;
+  margin-right: @spacing-large;
+}
+.mh5   {
+  margin-left: @spacing-extra-large;
+  margin-right: @spacing-extra-large;
+}

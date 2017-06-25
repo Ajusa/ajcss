@@ -1,0 +1,26 @@
+// Cards
+.card {
+  background: @bg-color-light;
+  border: @border-width solid @border-color;
+  border-radius: @border-radius;
+  display: block;
+  .card-image {
+    padding-top: @layout-padding-lg;
+
+    &:first-child {
+      padding-top: 0;
+
+      img {
+        border-top-left-radius: @border-radius;
+        border-top-right-radius: @border-radius;
+      }
+    }
+
+    &:last-child {
+      img {
+        border-bottom-left-radius: @border-radius;
+        border-bottom-right-radius: @border-radius;
+      }
+    }
+  }
+}
