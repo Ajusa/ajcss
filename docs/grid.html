@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../dist/aj.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+</head>
+
+<body class="pb4" style="font-family: 'Open Sans'">
+    <section class="bg-near-white">
+        <div class="center pv5 tc">
+            <h2>Welcome to aj.css</h2>
+            <p>A responsive atomic css inspired framework</p>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row mt4">
+            <div class="three columns mb3">
+                <ul class="nav">
+                    <h3 class="mb1">Docs</h3>
+                    <li class="nav-item">
+                        <a href="/">Getting Started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/docs/typography.html">Typography</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="/docs/grid.html">Grid</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/docs/spacing.html">Spacing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/docs/colors.html">Colors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/docs/elements.html">Elements</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nine columns">
+                <h2>Grid System</h2>
+                <p>The grid system in ajcss is by default responsive, and quite simple to use. It is heavily based on the grid system that Skeleton provides, so if you are familiar with that, this should be a breeze. It works on a twelve column system</p>
+                <h3>Example: Two Column Collapse</h3>
+                <br>
+                <div class="row cf">
+                    <div class="six columns bg-near-white">First Column</div>
+                    <div class="six columns bg-near-white">Second Column</div>
+                </div>
+                <br>
+                <xmp class="bg-near-white pv2">
+                    <div class="row cf">
+                        <div class="six columns bg-near-white">First Column</div>
+                        <div class="six columns bg-near-white">Second Column</div>
+                    </div>
+                </xmp>
+                <p>In this example, there are two columns that will collapse into two rows when viewed by a mobile device. Columns must be a child of row for it to work. This is quite a simple example, so let's move on to a more complex one.</p>
+                <br>
+                <h3>Example: Four Column Collapse</h3>
+                <br>
+                <div class="row cf">
+                    <div class="two columns bg-near-white">First Column</div>
+                    <div class="four columns bg-near-white">Second Column</div>
+                    <div class="four columns bg-near-white">Third Column</div>
+                    <div class="two columns bg-near-white">Fourth Column</div>
+                </div>
+                <br>
+                <xmp class="bg-near-white pv2">
+                    <div class="row cf">
+                        <div class="two columns bg-near-white">First Column</div>
+                        <div class="four columns bg-near-white">Second Column</div>
+                        <div class="four columns bg-near-white">Third Column</div>
+                        <div class="two columns bg-near-white">Fourth Column</div>
+                    </div>
+                </xmp>
+                <p>That shouldn't have been too difficult to understand. We have two smaller columns at the edges (the two columns class) and then we have the two larger columns in the middle (the four columns class).</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

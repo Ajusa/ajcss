@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../dist/aj.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+</head>
+
+<body class="pb4" style="font-family: 'Open Sans'">
+    <section class="bg-near-white">
+        <div class="center pv5 tc">
+            <h2>Welcome to aj.css</h2>
+            <p>A responsive atomic css inspired framework</p>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row mt4">
+            <div class="three columns mb3">
+                <ul class="nav">
+                    <h3 class="mb1">Docs</h3>
+                    <li class="nav-item">
+                        <a href="/">Getting Started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/docs/typography.html">Typography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/docs/grid.html">Grid</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="/docs/spacing.html">Spacing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/docs/colors.html">Colors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/docs/elements.html">Elements</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nine columns">
+                <h2>Spacing</h2>
+                <p>The spacing system in ajcss is based on atomic css principles. One should be able to position the majority of elements without having to write custom css.</p>
+                <h4>Padding vs Margin</h4>
+                <p>The simplest way to think of this property is by thinking of a balloon with a force field around it. Margin increases the strength of the force field, while padding makes the balloon larger. Applying padding to an element makes it expand, while applying margin to an element pushes other elements away.</p>
+                <p>There is a simple shorthand for remembering the way padding and margin work in ajcss. Let's use an example: pt4.
+                    <br> The "p" part of this class name stands for padding. The "t" part of this class name tells you where it is going to be applied (top) and the "4" part of it is the strength.</p>
+                <p>The list of potential modifiers for the first part is just p and m, for padding and margin.</p>
+                <p>The list of potential modifiers for the second part is r, l, t, b, v, and h. Right, left, top, and bottom probably make sense by now, but what is this v and h? V stands for vertical, and it means having spacing on both top and bottom, and h stands for horizontal, which means having spacing on right and left. A third modifier is to have nothing at all, for example p3. No modifier for the second means that the spacing will be applied to all sides.</p>
+                <p>The third modifier is simply the numbers 1-5.</p>
+                <h3>Example: Padding and Margin</h3>
+                <br>
+                <p class="pl4 bg-black white">Some text padded from the left</p>
+                <p class="ml4 bg-black white">Some text margin from the left</p>
+                <p class="p4 bg-black white">Some text padded on all sides</p>
+                <br>
+                <xmp class="bg-near-white pv2">
+                    <p class="pl4 bg-black white">Some text padded from the left</p>
+                    <p class="ml4 bg-black white">Some text margin from the left</p>
+                    <p class="p4 bg-black white">Some text padded on all sides</p>
+                </xmp>
+                <p>This shouldn't be to hard to understand. It can be quite powerful when paired with other parts of ajcss.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

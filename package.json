@@ -1,9 +1,9 @@
 {
-  "name": "spectre.css",
-  "version": "0.2.14",
-  "homepage": "http://picturepan2.github.io/spectre",
-  "author": "Yan Zhu <picturepan2@hotmail.com>",
-  "description": "Spectre.css: a lightweight, responsive and modern CSS framework.",
+  "name": "aj.css",
+  "version": "0.1",
+  "homepage": "http://ajusa.github.io/ajcss",
+  "author": "Arham Jain <arhamjain@gmail.com>",
+  "description": "aj.css, a responsive css framework",
   "main": "docs/dist/spectre.css",
   "repository": {
     "type": "git",
@@ -19,18 +19,13 @@
   "license": "MIT",
   "keywords": [
     "css",
-    "framework",
-    "flexbox",
-    "responsive",
-    "mobile-friendly",
-    "front-end",
-    "less",
-    "modern"
+    "framework"
   ],
   "bugs": {
-    "url": "https://github.com/picturepan2/spectre/issues"
+    "url": "https://github.com/ajusa/ajcss/issues"
   },
   "devDependencies": {
+    "docpress": "0.7.1",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.0.3",
     "gulp-csscomb": "^3.0.8",

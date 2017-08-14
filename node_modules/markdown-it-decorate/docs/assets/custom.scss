@@ -1,0 +1,13 @@
+@import url('http://ricostacruz.com/docpress-rsc/style.css');
+
+html .page-index .markdown-body h1 {
+  font-size: 3em;
+  padding-bottom: 0;
+  margin-bottom: .1em;
+}
+
+html .page-index .markdown-body h1 + p {
+  font-size: 1.7em;
+  color: #777;
+  font-weight: 300;
+}
