@@ -34,7 +34,22 @@
             <div class="nine columns">
                 <h2>Components</h2>
                 <p>There are two types of components in ajcss. There are atomic components (aka those that require many atomic css classes) and default components, which are similar in usage to bootstrap.</p>
-                <h3>Example: Card</h3>
+                <h4 class="mb1">List of components</h4>
+                <div class="row cf mb3">
+                    <div class="four columns">
+                        <a href="#card" class="db mv2">Cards</a>
+                        <a href="#navbar" class="db mv2">Navbar</a>
+                        <a href="#vertnav" class="db mv2">Vertical Nav</a>
+                        <a href="#tabs" class="db mv2">Tabs</a>
+                    </div>
+                    <div class="four columns">
+                        <a href="#card" class="db mv2">Chips</a>
+                        <a href="#card" class="db mv2">Toasts</a>
+                        <a href="#card" class="db mv2">Modals</a>
+                    </div>
+                    <div class="four columns"></div>
+                </div>
+                <h3 id="card">Example: Card</h3>
                 <br>
                 <div class="row cf">
                     <div class="six columns">
@@ -66,63 +81,180 @@
                     </div>
                 </xmp>
                 <p>You can clearly see that the atomic card has classes to define the border, and the color, while the default simply has one class: card. The cards are also wrapped in a grid, for responsiveness. </p>
-                <h3>Example: Height Utilities</h3>
-                <p class="silver">Warning, lots of scrolling</p>
-                <div class="bg-primary vh-25 white mv2">
-                    <p class="vc tc">25% of Browser Height</p>
-                </div>
-                <div class="bg-red vh-50 white mv2">
-                    <p class="vc tc">50% of Browser Height</p>
-                </div>
-                <div class="bg-yellow vh-75 black mv2">
-                    <p class="vc tc">75% of Browser Height</p>
-                </div>
-                <div class="bg-purple vh-100 white mv2">
-                    <p class="vc tc">100% of Browser Height</p>
-                </div>
+                <h3 id="navbar">Example: Navbar</h3>
+                <nav class="navbar ph4 pv3 bg-near-white">
+                    <section class="fl">
+                        <a href="#" class="btn btn-link tracked b dib">
+                            <span class="purple">Brand</span>
+                        </a>
+                        <a href="#" class="btn btn-link">Updates</a>
+                        <a href="#" class="btn btn-link">About</a>
+                        <a href="#" class="btn btn-link">Profile</a>
+                    </section>
+                    <section class="fr">
+                        <a href="/login" class="btn btn-link">Login<a> <a href="/signup" class="btn btn-link b">Sign Up</a>
+                        <a href="/profile" class="btn btn-link">
+                            <span class="gray">
+                                Hi <b>Name</b>
+                            </span>
+                        </a>
+                        <a href="/logout" class="btn btn-link">Logout</a>
+                    </section>
+                </nav>
                 <br>
                 <xmp class="bg-near-white pv2">
-                    <div class="bg-primary vh-25 white mv2">
-                        <p class="vc tc">25% of Browser Height</p>
-                    </div>
-                    <div class="bg-red vh-50 white mv2">
-                        <p class="vc tc">50% of Browser Height</p>
-                    </div>
-                    <div class="bg-yellow vh-75 black mv2">
-                        <p class="vc tc">75% of Browser Height</p>
-                    </div>
-                    <div class="bg-purple vh-100 white mv2">
-                        <p class="vc tc">100% of Browser Height</p>
-                    </div>
+                    <header class="navbar ph4 pv3 bg-near-white">
+                        <section class="fl">
+                            <a href="#" class="btn btn-link tracked b dib">
+                                <span class="purple">Brand</span>
+                            </a>
+                            <a href="#" class="btn btn-link">Updates</a>
+                            <a href="#" class="btn btn-link">About</a>
+                            <a href="#" class="btn btn-link">Profile</a>
+                        </section>
+                        <section class="fr">
+                            <a href="/login" class="btn btn-link">Login<a> <a href="/signup" class="btn btn-link b">Sign Up</a>
+                            <a href="/profile" class="btn btn-link">
+                            <span class="gray">
+                                Hi <b>Name</b>
+                            </span>
+                        </a>
+                            <a href="/logout" class="btn btn-link">Logout</a>
+                        </section>
+                    </header>
                 </xmp>
-                <h3>Example: Border Utilities</h3>
-                <div class="ba mv2">Simple border</div>
-                <div class="ba b-red mv2">Colored border</div>
-                <div class="ba b-blue mv2 br3">Colored and Rounded border</div>
-                <div class="ba b-light-gray br2 p3">Card style border</div>
+                <h3 id="vertnav">Example: Vertical Navbar</h3>
+                <div class="row cf">
+                    <div class="six columns">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#">Elements</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="">Layout</a>
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a href="#">Responsive Grid</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#">Colors</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="six columns">
+                        <nav class="gray mt3">
+                            <div class="mv3">Elements</div>
+                            <div class="mv3">Layout</div>
+                            <div class="light-silver ml4 pv1">
+                                <div class="mv3" href="#">Responsive Grid</div>
+                                <div class="mv3" href="#">Colors</div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
                 <xmp class="bg-near-white pv2">
-                    <div class="ba mv2">Simple border</div>
-                    <div class="ba b-red mv2">Colored border</div>
-                    <div class="ba b-blue mv2 br3">Colored and Rounded border</div>
-                    <div class="ba b-light-gray br2 p3">Card style border</div>
+                    <!--The default way-->
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#">Elements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="">Layout</a>
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a href="#">Responsive Grid</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Colors</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--The atomic way-->
+                    <nav class="gray mt3">
+                        <div class="mv3">Elements</div>
+                        <div class="mv3">Layout</div>
+                        <div class="light-silver ml4 pv1">
+                            <div class="mv3" href="#">Responsive Grid</div>
+                            <div class="mv3" href="#">Colors</div>
+                        </div>
+                    </nav>
                 </xmp>
-                <p>You can use any of the colors that are on the colors page for borders. Just use b-color! The br classes are for border radius, or the roundness. They go from br1 to br3.</p>
-                <h3>Example: Misc Utilities</h3>
-                <p class="hand">This will have a hand cursor over it on hover</p>
-                <p class="dim">This will dim on hover</p>
-                <button class="grow db mv2">This will grow on hover</button>
-                <button class="grow-large db mv2">This will grow a lot on hover</button>
-                <p class="dib">Hey</p>
-                <p class="dib">Hello</p>
+                <p>Here, I would reccomend the default way, as working with atomic classes and links can be a pain.</p>
+                <h3 id="tabs">Example: Tabs</h3>
+                <ul class="tab tab-block ">
+                    <li class="tab-item active">
+                        <a href="#">Music</a>
+                    </li>
+                    <li class="tab-item">
+                        <a href="#">Playlists</a>
+                    </li>
+                    <li class="tab-item">
+                        <a href="#">Radio</a>
+                    </li>
+                    <li class="tab-item">
+                        <a href="#">Connect</a>
+                    </li>
+                    <li class="tab-item">
+                        <input type="text" placeholder="Type to search" class="dib">
+                    </li>
+                </ul>
                 <xmp class="bg-near-white pv2">
-                    <p class="hand">This will have a hand cursor over it on hover</p>
-                    <p class="dim">This will dim on hover</p>
-                    <button class="grow db mv2">This will grow on hover</button>
-                    <button class="grow-large db mv2">This will grow a lot on hover</button>
-                    <p class="dib">Hey</p>
-                    <p class="dib">Hello</p>
+                    <ul class="tab tab-block">
+                        <li class="tab-item active">
+                            <a href="#">Music</a>
+                        </li>
+                        <li class="tab-item">
+                            <a href="#">Playlists</a>
+                        </li>
+                        <li class="tab-item">
+                            <a href="#">Radio</a>
+                        </li>
+                        <li class="tab-item">
+                            <a href="#">Connect</a>
+                        </li>
+                        <li class="tab-item">
+                            <input type="text" placeholder="Type to search" class="dib">
+                        </li>
+                    </ul>
                 </xmp>
-                <p>The db classes simply mean display: block, or it makes things break lines. The dib class means that the element will try and stay in a line, but if the width is smaller than that line, they will break lines like the db class.</p>
+                <h3 id="chips">Example: Chips</h3>
+                <span class="chip">
+                    Chip
+                    <button class="btn btn-clear"></button>
+                </span>
+                <span class="chip bg-red near-white">
+                    Chip 2
+                    <button class="btn btn-clear"></button>
+                </span>
+                <span class="chip bg-yellow black">
+                    Chip 2
+                    <button class="btn btn-clear"></button>
+                </span>
+                <span class="chip bg-dark-pink white">
+                    Chip 2
+                    <button class="btn btn-clear"></button>
+                </span>
+                <xmp class="bg-near-white pv2">
+                    <span class="chip">
+                        Chip
+                        <button class="btn btn-clear"></button>
+                    </span>
+                    <span class="chip bg-red near-white">
+                        Chip 2
+                        <button class="btn btn-clear"></button>
+                    </span>
+                    <span class="chip bg-yellow black">
+                        Chip 2
+                        <button class="btn btn-clear"></button>
+                    </span>
+                    <span class="chip bg-dark-pink white">
+                        Chip 2
+                        <button class="btn btn-clear"></button>
+                    </span>
+                </xmp>
             </div>
         </div>
     </div>
