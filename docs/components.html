@@ -28,32 +28,44 @@
                 <a href="../docs/spacing.html" class="db mv3">Spacing</a>
                 <a href="../docs/colors.html" class="db mv3">Colors</a>
                 <a href="../docs/elements.html" class="db mv3">Elements</a>
-                <a href="../docs/utilities.html" class="db mv3 b">Utilities</a>
+                <a href="../docs/utilities.html" class="db mv3">Utilities</a>
+                <a href="../docs/components.html" class="db mv3 b">Components</a>
             </div>
             <div class="nine columns">
-                <h2>Utilities</h2>
-                <p>This section is kind of weird, because most people feel that atomic css is simply utilities. So, what could I possibly be putting on this page? This page contains a few useful classes, along with examples to show you how combining these with the previous sections can be very powerful.</p>
-                <h3>Example: Positioning Utilities</h3>
+                <h2>Components</h2>
+                <p>There are two types of components in ajcss. There are atomic components (aka those that require many atomic css classes) and default components, which are similar in usage to bootstrap.</p>
+                <h3>Example: Card</h3>
                 <br>
-                <p class="tc">This is centered</p>
-                <div class="cf">
-                    <p class="fr">This is on the right</p>
-                    <p class="fl">This is on the left</p>
-                </div>
-                <div class="bg-primary vh-25 white">
-                    <p class="vc tc">This is vertically and horizontally centered</p>
+                <div class="row cf">
+                    <div class="six columns">
+                        <div class="card p3 mv2">
+                            <h3>This is default card</h3>
+                            <p class="silver">Here is a quick blurb</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, cupiditate.</p>
+                        </div>
+                    </div>
+                    <div class="six columns">
+                        <div class="ba b-light-gray p3 mv2">
+                            <h3>This is a more atomic card</h3>
+                            <p class="silver">Here is a quick blurb</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, tenetur!</p>
+                        </div>
+                    </div>
                 </div>
                 <br>
                 <xmp class="bg-near-white pv2">
-                    <p class="tc">This is centered</p>
-                    <div class="cf">
-                        <p class="fr">This is on the right</p>
-                        <p class="fl">This is on the left</p>
+                    <div class="card p3 mv2">
+                        <h3>This is default card</h3>
+                        <p class="silver">Here is a quick blurb</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, velit.</p>
                     </div>
-                    <div class="bg-primary vh-25 white">
-                        <p class="vc tc">This is vertically and horizontally centered</p>
+                    <div class="ba b-light-gray p3 mv2">
+                        <h3>This is a more atomic card</h3>
+                        <p class="silver">Here is a quick blurb</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, porro.</p>
                     </div>
                 </xmp>
+                <p>You can clearly see that the atomic card has classes to define the border, and the color, while the default simply has one class: card. The cards are also wrapped in a grid, for responsiveness. </p>
                 <h3>Example: Height Utilities</h3>
                 <p class="silver">Warning, lots of scrolling</p>
                 <div class="bg-primary vh-25 white mv2">
@@ -83,7 +95,7 @@
                         <p class="vc tc">100% of Browser Height</p>
                     </div>
                 </xmp>
-                <h3>Example: Border Utilities</h3>  
+                <h3>Example: Border Utilities</h3>
                 <div class="ba mv2">Simple border</div>
                 <div class="ba b-red mv2">Colored border</div>
                 <div class="ba b-blue mv2 br3">Colored and Rounded border</div>
@@ -100,13 +112,15 @@
                 <p class="dim">This will dim on hover</p>
                 <button class="grow db mv2">This will grow on hover</button>
                 <button class="grow-large db mv2">This will grow a lot on hover</button>
-                <p class="dib">Hey</p> <p class="dib">Hello</p>
+                <p class="dib">Hey</p>
+                <p class="dib">Hello</p>
                 <xmp class="bg-near-white pv2">
                     <p class="hand">This will have a hand cursor over it on hover</p>
                     <p class="dim">This will dim on hover</p>
                     <button class="grow db mv2">This will grow on hover</button>
                     <button class="grow-large db mv2">This will grow a lot on hover</button>
-                    <p class="dib">Hey</p> <p class="dib">Hello</p>
+                    <p class="dib">Hey</p>
+                    <p class="dib">Hello</p>
                 </xmp>
                 <p>The db classes simply mean display: block, or it makes things break lines. The dib class means that the element will try and stay in a line, but if the width is smaller than that line, they will break lines like the db class.</p>
             </div>
