@@ -527,11 +527,6 @@ button.btn-lg {
   height: 4rem;
   padding: .9rem .8rem;
 }
-.btn.btn-block,
-button.btn-block {
-  display: block;
-  width: 100%;
-}
 .btn.btn-action,
 button.btn-action {
   padding-left: 0;
@@ -567,43 +562,6 @@ button.btn-clear:hover {
 .btn.btn-clear::before,
 button.btn-clear::before {
   content: "\2715";
-}
-.btn-group {
-  display: inline-flex;
-  display: -ms-inline-flexbox;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-.btn-group .btn {
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-}
-.btn-group .btn:first-child:not(:last-child) {
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
-}
-.btn-group .btn:not(:first-child):not(:last-child) {
-  border-radius: 0;
-  margin-left: -.1rem;
-}
-.btn-group .btn:last-child:not(:first-child) {
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-  margin-left: -.1rem;
-}
-.btn-group .btn:focus,
-.btn-group .btn:hover,
-.btn-group .btn:active,
-.btn-group .btn.active {
-  z-index: 1;
-}
-.btn-group.btn-group-block {
-  display: flex;
-  display: -ms-flexbox;
-}
-.btn-group.btn-group-block .btn {
-  -ms-flex: 1 0 0;
-  flex: 1 0 0;
 }
 input[type="email"],
 input[type="number"],
@@ -758,13 +716,6 @@ img {
 }
 .video-responsive-1-1::before {
   padding-bottom: 100%;
-}
-.figure {
-  margin: 0 0 1rem 0;
-}
-.figure .figure-caption {
-  color: #727e96;
-  margin-top: 1rem;
 }
 .container {
   margin: 0 auto;
@@ -1317,61 +1268,6 @@ POSSIBLE DELETION - ARHAM JAIN
 .panel .panel-subtitle {
   color: #bbc1cd;
 }
-.empty {
-  background: #f8f9fa;
-  border-radius: 0rem;
-  color: #727e96;
-  padding: 4rem;
-  text-align: center;
-}
-.empty .empty-title,
-.empty .empty-subtitle {
-  margin: 1rem auto;
-}
-.empty .empty-subtitle {
-  color: #bbc1cd;
-}
-.empty .empty-action {
-  margin-top: 1.5rem;
-}
-.form-autocomplete {
-  position: relative;
-}
-.form-autocomplete .form-autocomplete-input {
-  align-content: flex-start;
-  display: flex;
-  display: -ms-flexbox;
-  -ms-flex-line-pack: start;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  height: auto;
-  min-height: 3.2rem;
-  padding: .1rem 0 0 .1rem;
-}
-.form-autocomplete .form-autocomplete-input.is-focused {
-  border-color: #0078d7;
-  box-shadow: 0 0 0 .2rem rgba(0, 120, 215, .15);
-}
-.form-autocomplete .form-autocomplete-input .form-input {
-  border-color: transparent;
-  box-shadow: none;
-  display: inline-block;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
-  height: 2.8rem;
-  padding: .3rem .8rem;
-  width: auto;
-}
-.form-autocomplete mark {
-  font-size: 1;
-  padding: .1em 0;
-}
-.form-autocomplete .menu {
-  left: 0;
-  position: absolute;
-  top: 100%;
-  width: 100%;
-}
 .avatar {
   background: #0078d7;
   border-radius: 50%;
@@ -1738,75 +1634,6 @@ POSSIBLE DELETION - ARHAM JAIN
   margin-left: -.4rem;
   margin-right: .4rem;
 }
-.dropdown {
-  display: inline-block;
-  position: relative;
-}
-.dropdown .menu {
-  animation: slide-down .2s ease 1;
-  display: none;
-  left: 0;
-  position: absolute;
-  top: 100%;
-}
-.dropdown.dropdown-right .menu {
-  left: auto;
-  right: 0;
-}
-.dropdown.active .menu,
-.dropdown .dropdown-toggle:focus + .menu,
-.dropdown .menu:hover {
-  display: block;
-}
-.dropdown .btn-group .dropdown-toggle:nth-last-child(2) {
-  border-bottom-right-radius: 0rem;
-  border-top-right-radius: 0rem;
-}
-.menu {
-  background: #fff;
-  border-radius: 0rem;
-  box-shadow: 0 .1rem .4rem rgba(69, 77, 93, .3);
-  list-style: none;
-  margin: 0;
-  min-width: 18rem;
-  padding: 1rem;
-  -ms-transform: translateY(.5rem);
-  transform: translateY(.5rem);
-  z-index: 100;
-}
-.menu .menu-item {
-  margin-top: 0;
-  padding: 0 .8rem;
-  text-decoration: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.menu .menu-item > a {
-  border-radius: 0rem;
-  color: inherit;
-  display: block;
-  margin: 0 -.8rem;
-  padding: .6rem .8rem;
-  text-decoration: none;
-}
-.menu .menu-item > a:focus,
-.menu .menu-item > a:hover {
-  color: #0078d7;
-}
-.menu .menu-item > a:active,
-.menu .menu-item > a.active {
-  background: #b3deff;
-  color: #0078d7;
-}
-.menu .menu-badge {
-  float: right;
-  padding: .6rem 0;
-}
-.menu .menu-badge .btn {
-  margin-top: -.2rem;
-}
 .modal {
   align-items: center;
   bottom: 0;
@@ -2062,63 +1889,6 @@ POSSIBLE DELETION - ARHAM JAIN
   border: 0;
   box-shadow: 0 .4rem 1rem rgba(69, 77, 93, .3);
 }
-.step {
-  display: flex;
-  display: -ms-flexbox;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  list-style: none;
-  margin: .5rem 0;
-  width: 100%;
-}
-.step .step-item {
-  -ms-flex: 1 1 0;
-  flex: 1 1 0;
-  margin-top: 0;
-  min-height: 2rem;
-  position: relative;
-  text-align: center;
-}
-.step .step-item:not(:first-child)::before {
-  background: #0078d7;
-  content: "";
-  height: .2rem;
-  left: -50%;
-  position: absolute;
-  top: .9rem;
-  width: 100%;
-}
-.step .step-item a {
-  color: #acb3c2;
-  display: inline-block;
-  padding: 2rem 1rem 0;
-  text-decoration: none;
-}
-.step .step-item a::before {
-  background: #0078d7;
-  border: .2rem solid #fff;
-  border-radius: 50%;
-  content: "";
-  display: block;
-  height: 1.2rem;
-  left: 50%;
-  position: absolute;
-  top: .4rem;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 1.2rem;
-  z-index: 1;
-}
-.step .step-item.active a::before {
-  background: #fff;
-  border: .2rem solid #0078d7;
-}
-.step .step-item.active ~ .step-item::before {
-  background: #f0f1f4;
-}
-.step .step-item.active ~ .step-item a::before {
-  background: #e7e9ed;
-}
 .tile {
   align-content: space-between;
   align-items: flex-start;
@@ -2250,12 +2020,6 @@ POSSIBLE DELETION - ARHAM JAIN
   -ms-transform: translate(-.5rem, 50%);
   transform: translate(-.5rem, 50%);
 }
-/*
-
-    OPACITY
-    Docs: http://tachyons.io/docs/themes/opacity/
-
-*/
 .o-100 {
   opacity: 1;
 }
