@@ -1,13 +1,13 @@
 {
   "name": "aj.css",
-  "version": "0.1",
+  "version": 1,
   "homepage": "http://ajusa.github.io/ajcss",
   "author": "Arham Jain <arhamjain@gmail.com>",
   "description": "aj.css, a responsive css framework",
-  "main": "docs/dist/spectre.css",
+  "main": "dist/aj.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/picturepan2/spectre.git"
+    "url": "git+https://github.com/ajusa/ajcss.git"
   },
   "files": [
     "dist",
@@ -25,11 +25,13 @@
     "url": "https://github.com/ajusa/ajcss/issues"
   },
   "devDependencies": {
-    "docpress": "0.7.1",
+    "docpress": "0.7.1"
+  },
+  "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.0.3",
+    "gulp-clean-css": "^3.9.0",
     "gulp-csscomb": "^3.0.8",
-    "gulp-less": "^3.3.0",
+    "gulp-less": "^3.3.2",
     "gulp-rename": "^1.2.2",
     "less-plugin-autoprefix": "^1.5.1"
   }

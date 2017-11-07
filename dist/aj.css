@@ -1519,77 +1519,80 @@ POSSIBLE DELETION - ARHAM JAIN
 .bw3 {
   border-width: .5rem;
 }
+.b-primary {
+  color: #0078d7;
+}
 .b-black {
-  border-color: #000;
+  color: #000;
 }
-.b-near-black {
-  border-color: #111;
+.b-black-1 {
+  color: #2e2e2e;
 }
-.b-dark-gray {
-  border-color: #333;
+.b-black-2 {
+  color: #505050;
 }
-.b-mid-gray {
-  border-color: #555;
+.b-black-3 {
+  color: #6c6c6c;
 }
-.b-gray {
-  border-color: #777;
+.b-black-4 {
+  color: #898989;
 }
-.b-silver {
-  border-color: #999;
+.b-white-4 {
+  color: #a9a9a9;
 }
-.b-light-silver {
-  border-color: #aaa;
+.b-white-3 {
+  color: #c1c1c1;
 }
-.b-light-gray {
-  border-color: #eee;
+.b-white-2 {
+  color: #d7d7d7;
 }
-.b-near-white {
-  border-color: #f4f4f4;
+.b-white-1 {
+  color: #f0f0f0;
 }
 .b-white {
-  border-color: #fff;
-}
-.b-dark-red {
-  border-color: #e7040f;
+  color: #fff;
 }
 .b-red {
-  border-color: #ff4136;
+  color: #e84c36;
+}
+.b-dark-red {
+  color: #c33825;
+}
+.b-orange {
+  color: #e87e04;
+}
+.b-dark-orange {
+  color: #d55400;
 }
 .b-yellow {
-  border-color: #ffd700;
+  color: #f3c500;
+}
+.b-dark-yellow {
+  color: #f59c00;
+}
+.b-teal {
+  color: #00be9c;
+}
+.b-dark-teal {
+  color: #01a187;
 }
 .b-purple {
-  border-color: #5e2ca5;
+  color: #9c56b8;
 }
-.b-light-purple {
-  border-color: #a463f2;
-}
-.b-dark-pink {
-  border-color: #d5008f;
-}
-.b-hot-pink {
-  border-color: #ff41b4;
-}
-.b-pink {
-  border-color: #ff80cc;
-}
-.b-dark-green {
-  border-color: #137752;
-}
-.b-green {
-  border-color: #19a974;
-}
-.b-navy {
-  border-color: #001b44;
-}
-.b-dark-blue {
-  border-color: #00449e;
+.b-dark-purple {
+  color: #8d3faf;
 }
 .b-blue {
-  border-color: #357edd;
+  color: #2f97de;
 }
-.b-transparent {
-  border-color: transparent;
+.b-dark-blue {
+  color: #217ebb;
+}
+.b-green {
+  color: #1cce6c;
+}
+.b-dark-green {
+  color: #1caf5e;
 }
 .card {
   background: #fff;
@@ -2070,74 +2073,74 @@ POSSIBLE DELETION - ARHAM JAIN
 .black {
   color: #000;
 }
-.near-black {
-  color: #111;
+.black-1 {
+  color: #2e2e2e;
 }
-.dark-gray {
-  color: #333;
+.black-2 {
+  color: #505050;
 }
-.mid-gray {
-  color: #555;
+.black-3 {
+  color: #6c6c6c;
 }
-.gray {
-  color: #777;
+.black-4 {
+  color: #898989;
 }
-.silver {
-  color: #999;
+.white-4 {
+  color: #a9a9a9;
 }
-.light-silver {
-  color: #aaa;
+.white-3 {
+  color: #c1c1c1;
 }
-.moon-gray {
-  color: #ccc;
+.white-2 {
+  color: #d7d7d7;
 }
-.light-gray {
-  color: #eee;
-}
-.near-white {
-  color: #f4f4f4;
+.white-1 {
+  color: #f0f0f0;
 }
 .white {
   color: #fff;
 }
-.dark-red {
-  color: #e7040f;
-}
 .red {
-  color: #ff4136;
+  color: #e84c36;
+}
+.dark-red {
+  color: #c33825;
+}
+.orange {
+  color: #e87e04;
+}
+.dark-orange {
+  color: #d55400;
 }
 .yellow {
-  color: #ffd700;
+  color: #f3c500;
+}
+.dark-yellow {
+  color: #f59c00;
+}
+.teal {
+  color: #00be9c;
+}
+.dark-teal {
+  color: #01a187;
 }
 .purple {
-  color: #5e2ca5;
+  color: #9c56b8;
 }
-.light-purple {
-  color: #a463f2;
-}
-.dark-pink {
-  color: #d5008f;
-}
-.hot-pink {
-  color: #ff41b4;
-}
-.pink {
-  color: #ff80cc;
-}
-.dark-green {
-  color: #137752;
-}
-.green {
-  color: #19a974;
-}
-.navy {
-  color: #001b44;
-}
-.dark-blue {
-  color: #00449e;
+.dark-purple {
+  color: #8d3faf;
 }
 .blue {
-  color: #357edd;
+  color: #2f97de;
+}
+.dark-blue {
+  color: #217ebb;
+}
+.green {
+  color: #1cce6c;
+}
+.dark-green {
+  color: #1caf5e;
 }
 /* Background colors */
 .bg-primary {
@@ -2146,80 +2149,74 @@ POSSIBLE DELETION - ARHAM JAIN
 .bg-black {
   background-color: #000;
 }
-.bg-near-black {
-  background-color: #111;
+.bg-black-1 {
+  background-color: #2e2e2e;
 }
-.bg-dark-gray {
-  background-color: #333;
+.bg-black-2 {
+  background-color: #505050;
 }
-.bg-mid-gray {
-  background-color: #555;
+.bg-black-3 {
+  background-color: #6c6c6c;
 }
-.bg-gray {
-  background-color: #777;
+.bg-black-4 {
+  background-color: #898989;
 }
-.bg-silver {
-  background-color: #999;
+.bg-white-4 {
+  background-color: #a9a9a9;
 }
-.bg-light-silver {
-  background-color: #aaa;
+.bg-white-3 {
+  background-color: #c1c1c1;
 }
-.bg-moon-gray {
-  background-color: #ccc;
+.bg-white-2 {
+  background-color: #d7d7d7;
 }
-.bg-light-gray {
-  background-color: #eee;
-}
-.bg-near-white {
-  background-color: #f4f4f4;
+.bg-white-1 {
+  background-color: #f0f0f0;
 }
 .bg-white {
   background-color: #fff;
 }
-.bg-transparent {
-  background-color: transparent;
+.bg-red {
+  background-color: #e84c36;
 }
 .bg-dark-red {
-  background-color: #e7040f;
+  background-color: #c33825;
 }
-.bg-red {
-  background-color: #ff4136;
+.bg-orange {
+  background-color: #e87e04;
+}
+.bg-dark-orange {
+  background-color: #d55400;
 }
 .bg-yellow {
-  background-color: #ffd700;
+  background-color: #f3c500;
 }
-.bg-light-yellow {
-  background-color: #fbf1a9;
+.bg-dark-yellow {
+  background-color: #f59c00;
+}
+.bg-teal {
+  background-color: #00be9c;
+}
+.bg-dark-teal {
+  background-color: #01a187;
 }
 .bg-purple {
-  background-color: #5e2ca5;
+  background-color: #9c56b8;
 }
-.bg-light-purple {
-  background-color: #a463f2;
-}
-.bg-dark-pink {
-  background-color: #d5008f;
-}
-.bg-hot-pink {
-  background-color: #ff41b4;
-}
-.bg-pink {
-  background-color: #ff80cc;
-}
-.bg-dark-green {
-  background-color: #137752;
-}
-.bg-green {
-  background-color: #19a974;
-}
-.bg-navy {
-  background-color: #001b44;
-}
-.bg-dark-blue {
-  background-color: #00449e;
+.bg-dark-purple {
+  background-color: #8d3faf;
 }
 .bg-blue {
-  background-color: #357edd;
+  background-color: #2f97de;
+}
+.bg-dark-blue {
+  background-color: #217ebb;
+}
+.bg-green {
+  background-color: #1cce6c;
+}
+.bg-dark-green {
+  background-color: #1caf5e;
 }
 @keyframes loading {
   0% {
