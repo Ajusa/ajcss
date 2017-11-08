@@ -382,12 +382,10 @@ abbr[title] {
 .ttu {
   text-transform: uppercase;
 }
-.f-6,
-.f-headline {
+.f-6 {
   font-size: 6rem;
 }
-.f-5,
-.f-subheadline {
+.f-5 {
   font-size: 5rem;
 }
 .table {
@@ -786,15 +784,6 @@ img {
   .twelve.columns {
     margin-left: 0;
     width: 100%;
-  }
-  .one-third.column {
-    width: 30.6666666667%;
-  }
-  .two-thirds.column {
-    width: 65.3333333333%;
-  }
-  .one-half.column {
-    width: 48%;
   }
 }
 /*
@@ -1706,25 +1695,9 @@ POSSIBLE DELETION - ARHAM JAIN
 }
 .breadcrumb,
 .tab,
-.pagination,
 .nav {
   list-style: none;
   margin: .5rem 0;
-}
-.breadcrumb {
-  padding: 1.2rem;
-}
-.breadcrumb .breadcrumb-item {
-  display: inline-block;
-  margin: 0;
-}
-.breadcrumb .breadcrumb-item:last-child {
-  color: #acb3c2;
-}
-.breadcrumb .breadcrumb-item:not(:first-child)::before {
-  color: #e7e9ed;
-  content: "/";
-  padding: 0 .4rem;
 }
 .tab {
   align-items: center;
@@ -1763,75 +1736,6 @@ POSSIBLE DELETION - ARHAM JAIN
   -ms-flex: 1 0 0;
   flex: 1 0 0;
   text-align: center;
-}
-.pagination {
-  display: flex;
-  display: -ms-flexbox;
-}
-.pagination .page-item {
-  margin: 1rem .1rem;
-}
-.pagination .page-item span {
-  display: inline-block;
-  padding: .6rem .4rem;
-}
-.pagination .page-item a {
-  border-radius: 0rem;
-  color: #727e96;
-  display: inline-block;
-  padding: .6rem .8rem;
-  text-decoration: none;
-}
-.pagination .page-item a:focus,
-.pagination .page-item a:hover {
-  color: #0078d7;
-}
-.pagination .page-item a[disabled],
-.pagination .page-item a.disabled {
-  cursor: default;
-  opacity: .5;
-  pointer-events: none;
-}
-.pagination .page-item.active a {
-  background: #0078d7;
-  color: #fff;
-}
-.pagination .page-item.page-prev,
-.pagination .page-item.page-next {
-  -ms-flex: 1 0 50%;
-  flex: 1 0 50%;
-}
-.pagination .page-item.page-next {
-  text-align: right;
-}
-.pagination .page-item .page-item-title {
-  margin: 0;
-}
-.pagination .page-item .page-item-subtitle {
-  margin: 0;
-  opacity: .5;
-}
-.nav {
-  display: flex;
-  display: -ms-flexbox;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-.nav .nav {
-  margin-bottom: 1rem;
-  margin-left: 2rem;
-}
-.nav .nav a {
-  color: #acb3c2;
-}
-.nav-item a {
-  color: #727e96;
-  padding: .6rem .8rem;
-  text-decoration: none;
-}
-.nav-item a:focus,
-.nav-item a:hover {
-  color: #0078d7;
 }
 .popover {
   display: inline-block;
@@ -2295,12 +2199,6 @@ POSSIBLE DELETION - ARHAM JAIN
 }
 .hide {
   display: none !important;
-}
-.visible {
-  visibility: visible;
-}
-.invisible {
-  visibility: hidden;
 }
 .text-hide {
   background: transparent;
