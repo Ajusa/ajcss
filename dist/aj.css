@@ -221,6 +221,9 @@ p {
   line-height: 2.4rem;
   margin: 0 0 1rem;
 }
+.small {
+  font-size: 1.1rem;
+}
 a,
 ins,
 u {
@@ -2019,6 +2022,92 @@ POSSIBLE DELETION - ARHAM JAIN
 .tooltip.tooltip-left:hover::after {
   -ms-transform: translate(-.5rem, 50%);
   transform: translate(-.5rem, 50%);
+}
+.slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  display: block;
+  height: 2.4rem;
+  width: 100%;
+}
+.slider:focus {
+  box-shadow: 0 0 0 .2rem rgba(0, 120, 215, .15);
+  outline: none;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #0078d7;
+  border: 0;
+  border-radius: 50%;
+  height: 1.2rem;
+  margin-top: -.5rem;
+  transition: transform .2s ease;
+  width: 1.2rem;
+}
+.slider::-moz-range-thumb {
+  background: #0078d7;
+  border: 0;
+  border-radius: 50%;
+  height: 1.2rem;
+  transition: transform .2s ease;
+  width: 1.2rem;
+}
+.slider::-ms-thumb {
+  background: #0078d7;
+  border: 0;
+  border-radius: 50%;
+  height: 1.2rem;
+  transition: transform .2s ease;
+  width: 1.2rem;
+}
+.slider:active::-webkit-slider-thumb {
+  transform: scale(1.25);
+}
+.slider:active::-moz-range-thumb {
+  transform: scale(1.25);
+}
+.slider:active::-ms-thumb {
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+}
+.slider:disabled::-webkit-slider-thumb,
+.slider.disabled::-webkit-slider-thumb {
+  background: #e7e9ed;
+  transform: scale(1);
+}
+.slider:disabled::-moz-range-thumb,
+.slider.disabled::-moz-range-thumb {
+  background: #e7e9ed;
+  transform: scale(1);
+}
+.slider:disabled::-ms-thumb,
+.slider.disabled::-ms-thumb {
+  background: #e7e9ed;
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.slider::-webkit-slider-runnable-track {
+  background: #f0f1f4;
+  border-radius: 0rem;
+  height: .2rem;
+  width: 100%;
+}
+.slider::-moz-range-track {
+  background: #f0f1f4;
+  border-radius: 0rem;
+  height: .2rem;
+  width: 100%;
+}
+.slider::-ms-track {
+  background: #f0f1f4;
+  border-radius: 0rem;
+  height: .2rem;
+  width: 100%;
+}
+.slider::-ms-fill-lower {
+  background: #0078d7;
 }
 .o-100 {
   opacity: 1;
